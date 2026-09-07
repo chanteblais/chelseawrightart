@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Work — Chelsea Wright</title>
+  <meta name="description" content="Gallery of mixed media, assemblage, and sculptural work by Chelsea Wright.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a class="wordmark" href="index.html">Chelsea Wright</a>
+  <nav class="site-nav">
+    <a href="work.html" aria-current="page">Work</a>
+    <a href="about.html">About</a>
+    <a href="exhibitions.html">Exhibitions</a>
+    <a href="store.html">Store</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<div class="page-intro">
+  <h1>Work</h1>
+  <p>Mixed media, assemblage, and sculptural pieces built from reclaimed ceramics, found objects, grout, and paint. Select a piece to view it closer.</p>
+</div>
+
+<section class="section">
+  <div class="work-grid">
+    <!-- NOTE for Chelsea: titles marked ⁂ below are working titles invented
+         for the site — rename them by editing data-title and .title here
+         (and in store.html / index.html where the piece repeats). -->
+    <figure class="work-card" tabindex="0" role="button"
+            data-title="Steeped" data-meta="Assemblage with ceramic, mosaic, and plants, 2024"
+            data-images="assets/img/steeped-2.jpg|assets/img/steeped-1.jpg|assets/img/steeped-3.jpg">
+      <div class="frame"><img src="assets/img/steeped-2-sm.jpg" alt="Steeped — a face in white relief with blue mosaic, teacup planters, and trailing ivy" loading="lazy"></div>
+      <figcaption>
+        <div class="title">Steeped</div> <!-- ⁂ working title -->
+        <div class="meta">Assemblage — ceramic, mosaic, plants<br>2024</div>
+      </figcaption>
+    </figure>
+    <figure class="work-card" tabindex="0" role="button"
+            data-title="Patterns" data-meta="Mixed Media, 2024"
+            data-images="assets/img/patterns-1.jpg">
+      <div class="frame"><img src="assets/img/patterns-1-sm.jpg" alt="Patterns — beetles and flies over black and white stripes" loading="lazy"></div>
+      <figcaption>
+        <div class="title">Patterns</div>
+        <div class="meta">Mixed Media<br>2024</div>
+      </figcaption>
+    </figure>
+    <figure class="work-card" tabindex="0" role="button"
+            data-title="Containment" data-meta="Grout, Paint, 2024"
+            data-images="assets/img/containment-1.jpg">
+      <div class="frame"><img src="assets/img/containment-1-sm.jpg" alt="Containment — black and white figure framed in textured grout" loading="lazy"></div>
+      <figcaption>
+        <div class="title">Containment</div>
+        <div class="meta">Grout, Paint<br>2024</div>
+      </figcaption>
+    </figure>
+    <figure class="work-card" tabindex="0" role="button"
+            data-title="Cycles" data-meta="Assemblage, 2024"
+            data-images="assets/img/cycles-1.jpg|assets/img/cycles-2.jpg">
+      <div class="frame"><img src="assets/img/cycles-1-sm.jpg" alt="Cycles — paired silver frames with teacups, dried flowers and hare reliefs" loading="lazy"></div>
+      <figcaption>
+        <div class="title">Cycles</div>
+        <div class="meta">Assemblage<br>2024</div>
+      </figcaption>
+    </figure>
+    <figure class="work-card" tabindex="0" role="button"
+            data-title="Sisters" data-meta="Mixed Media, 2023"
+            data-images="assets/img/sisters-1.jpg|assets/img/sisters-2.jpg">
+      <div class="frame"><img src="assets/img/sisters-1-sm.jpg" alt="Sisters — three figures with moon faces in black and white" loading="lazy"></div>
+      <figcaption>
+        <div class="title">Sisters</div>
+        <div class="meta">Mixed Media<br>2023</div>
+      </figcaption>
+    </figure>
+    <figure class="work-card" tabindex="0" role="button"
+            data-title="Phases" data-meta="Assemblage with vintage china, 2024"
+            data-images="assets/img/phases-1.jpg|assets/img/phases-2.jpg">
+      <div class="frame"><img src="assets/img/phases-1-sm.jpg" alt="Phases — three moon faces set into cobalt and gold vintage plates" loading="lazy"></div>
+      <figcaption>
+        <div class="title">Phases</div> <!-- ⁂ working title -->
+        <div class="meta">Assemblage — vintage china<br>2024</div>
+      </figcaption>
+    </figure>
+    <figure class="work-card" tabindex="0" role="button"
+            data-title="Traces" data-meta="Diptych — mixed media on canvas, 2023"
+            data-images="assets/img/traces-1.jpg|assets/img/traces-2.jpg">
+      <div class="frame"><img src="assets/img/traces-1-sm.jpg" alt="Traces — diptych of scratched line drawings in white and graphite" loading="lazy"></div>
+      <figcaption>
+        <div class="title">Traces</div> <!-- ⁂ working title -->
+        <div class="meta">Diptych — mixed media on canvas<br>2023</div>
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <span>Chelsea Wright</span>
+  <span>Mixed Media / Assemblage / Sculpture</span>
+  <span>Vancouver, BC</span>
+</footer>
+
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true">
+  <button class="lb-close" aria-label="Close">&times;</button>
+  <button class="lb-prev" aria-label="Previous image">&larr;</button>
+  <button class="lb-next" aria-label="Next image">&rarr;</button>
+  <figure>
+    <img src="" alt="">
+    <figcaption><span class="lb-title"></span><span class="lb-meta"></span></figcaption>
+  </figure>
+</div>
+<script src="assets/js/lightbox.js"></script>
+
+</body>
+</html>
