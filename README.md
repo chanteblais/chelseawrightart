@@ -19,11 +19,9 @@ the folder with any static server.
 
 1. **Email**: `hello@chelseawright.art` appears in `store.html` and
    `contact.html`. Replace with the real inquiry address.
-2. **Instagram**: handle + URL in `contact.html`.
-3. **Bio**: `about.html` between the `PLACEHOLDER BIO` markers.
-4. **Exhibitions**: `exhibitions.html` — swap the empty-state note for real
+2. **Exhibitions**: `exhibitions.html` — swap the empty-state note for real
    entries using the commented template.
-5. **Working titles**: *Steeped*, *Phases*, and *Traces* were invented for
+3. **Working titles**: *Steeped*, *Phases*, and *Traces* were invented for
    the site (marked `⁂ working title` in `work.html`). *Patterns*,
    *Containment*, *Cycles*, *Sisters* and all years/materials are also
    guesses — confirm with Chelsea.
