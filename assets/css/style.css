@@ -283,6 +283,7 @@ a { color: inherit; text-decoration: none; }
 }
 
 .about-grid .portrait { position: sticky; top: 2rem; }
+.about-grid .portrait img { height: auto; }
 
 .about-text p { margin: 0 0 1.3em; }
 
