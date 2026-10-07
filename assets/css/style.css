@@ -392,12 +392,16 @@ a { color: inherit; text-decoration: none; }
   align-items: center;
 }
 
-.lightbox img {
+.lightbox img,
+.lightbox video {
   max-height: 74vh;
   width: auto;
   max-width: 100%;
   object-fit: contain;
 }
+
+.lightbox img[hidden],
+.lightbox video[hidden] { display: none; }
 
 .lightbox figcaption {
   color: #e8e4d8;

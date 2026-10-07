@@ -1,0 +1,4 @@
+.DS_Store
+# Raw phone videos are large; the site uses the compressed copies in assets/img/
+source-photos/*.MOV
+source-photos/*.mov
