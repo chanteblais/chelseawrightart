@@ -9,7 +9,7 @@ the folder with any static server.
 - `index.html` — home (hero, selected works, quote band)
 - `work.html` — full gallery with lightbox
 - `about.html` — bio (**placeholder copy** — see markers in the file)
-- `exhibitions.html` — empty state until a real show list exists (template entry commented in the file)
+- `exhibitions.html` — show list (template entry commented in the file)
 - `store.html` — inquire-to-buy listings (mailto links)
 - `contact.html` — email / Instagram / studio (**placeholder email + handle**)
 - `assets/img/` — web-optimized images (1600px `*.jpg`, 800px `*-sm.jpg`)
@@ -19,12 +19,6 @@ the folder with any static server.
 
 1. **Email**: `hello@chelseawright.art` appears in `store.html` and
    `contact.html`. Replace with the real inquiry address.
-2. **Exhibitions**: `exhibitions.html` — swap the empty-state note for real
-   entries using the commented template.
-3. **Working titles**: *Steeped*, *Phases*, and *Traces* were invented for
-   the site (marked `⁂ working title` in `work.html`). *Patterns*,
-   *Containment*, *Cycles*, *Sisters* and all years/materials are also
-   guesses — confirm with Chelsea.
 
 ## Deploying to GitHub Pages at chelseawright.art
 
